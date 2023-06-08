@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+.box{
+    width: 800px;
+    height: 500px;
+    margin: 100px auto 0px auto;
+    border: 10px solid black;
+    background-image: radial-gradient( circle,red, green ,yellow
+    );
+    /* background-image: linear-gradient( to right , green , black,red 40%,yellow); */
+}
+.h1, p{
+    margin: 150px 150px 0px 150px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h1{
+    font-size: 30px;
+}
+.p{
+          font-size: 20px;margin-top:30px;
+}
+</style>
+</head>
+<body>
+    <div class="box">
+    <H1>linear gradient</H1>
+    <p>The linear-gradient() function sets a linear 
+        gradient as the background image.
+        The linear-gradient() function sets a 
+        linear gradient as the background image.
+
+        To create a linear gradient you must define at
+         least two color stops. Color stops are the colors you want to
+          render smooth transitions among.
+         You can also set a starting point and a direction 
+        (or an angle) along with the gradient effect.
+        To create a linear gradient you must define at
+         least two color stops. Color stops are the colors you want
+          to render smooth 
+         transitions among. You can also set a starting 
+       
+         point and a direction (or an angle) along with the gradient effect.</p>
+        </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box{
+    /* background-color: blue; */
+    border: 4px solid black;
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+.b1{
+    background-image: conic-gradient(red, green,yellow);
+}
+.b2{
+    background-image: conic-gradient( from 45deg ,red, green,yellow);
+}
+.b4{
+background-image: conic-gradient(red 180deg, green,yellow);}
+.b3{
+background-image: conic-gradient(red, green,yellow, red);}
+.b3{
+background-image: repeating-conic-gradient(red 20deg, green 30deg );}
+.b6{
+    background-color: red;
+background-image: repeating-conic-gradient(rgba(0,0,0,0) rgba(0,0,0,0.5));
+}
+.b7{
+    background: color 20px red;
+    background-size:20px;
+background-image: repeating-conic-gradient(yellow 0deg, yellow 0deg, black 90deg, black 90 deg);
+}
+    </style>
+</head>
+<body>
+    <div class="box b1"></div>
+    <div class="box b2"></div>
+    <div class="box b3"></div>
+    <div class="box b4"></div>
+    <div class="box b5"></div>
+    <div class="box b6"></div>
+    <div class="box b7"></div>
+    <div class="box b8"></div>
+</body>
+</html>

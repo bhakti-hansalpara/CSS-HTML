@@ -1,0 +1,130 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(175, 206, 206);
+}
+
+.container {
+    max-width: 767px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: black;
+
+}
+
+.opstion {
+    background-color: black;
+}
+
+select {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.sign-btn {
+    background-color: black;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+
+.div {
+    color: black;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.div p {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 img {
+    border-radius: 100%;
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.div1 {
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+}
+
+.div1 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.div1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+br {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-class {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(247, 243, 243);
+    padding: 50px;
+    margin: 100px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon i:first-child {
+    margin-right: 10px;
+}
+
+.icon i {
+    font-size: 15px;
+    color: white;
+
+}

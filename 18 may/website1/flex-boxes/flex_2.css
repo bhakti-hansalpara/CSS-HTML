@@ -1,0 +1,72 @@
+*{
+    margin: 0cap;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cointainer{
+   height: 100vh;
+   width: 100%;
+}
+.row1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.box1{
+    width: 33.33%;
+    height: 100%;
+
+}
+
+.col1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(130, 182, 199);
+}
+ .col2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(211, 211, 37);
+ }
+    
+
+.box2{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(56, 56, 95);
+}
+.box3{
+    height: 100%;
+    width: 33.33%;
+}
+.col3{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(204, 67, 170);
+}
+.col4{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(98, 236, 79);
+}
+.row2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.box4{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.box5{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+.row3{
+    width: 100%;
+    height: 20%;
+    background-color: yellowgreen;
+}

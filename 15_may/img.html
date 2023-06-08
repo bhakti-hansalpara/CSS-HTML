@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *
+        *::after
+        *::before{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        .div{
+            height: 300px;
+            width: 300px;
+            border: 1px solid white;
+            position: absolute;
+            margin: 0%;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            top: 0%;
+            background: linear-gradient(to right, pink 20%
+                                yellow 20%,  green 30%
+                                red 50% , blue 40%);
+        }
+
+        .div2{
+            top: 50%;
+            bottom: 50%;
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            transform: translate(-50% , -50%);
+            background: radial-gradient(GREEN, BLUE
+            ,PINK , RED, YELLow, blue);
+        }
+.div3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    border: 2px solid pink ;
+    background: conic-gradient(
+        blue, pink,yellow,white, green,
+    );
+
+}
+
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        img{
+            border: 10px solid black;
+            padding: 10px;
+            border-radius: 50%;
+            /* border-radius: 50%; */
+        }
+        img:hover {
+  transform: scaley(-1);
+}
+       
+    </style>
+</head>
+<body>
+    <!-- <div class="div"></div> -->
+    <div class="div1"></div>
+    <p><h1>CSS Image</h1> </p>
+    <img src="https://source.unsplash.com/900x300/?nature,rain" height="200px" width="300px">
+</body>
+</html>

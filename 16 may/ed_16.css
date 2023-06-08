@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.cointainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+}
+.main{
+height: 80%;
+width: 90%;
+display: flex;
+position: relative;
+
+}
+.div1{
+    height: 100%;
+    width: 50% ;
+    position: relative;
+    /* padding:20px; */
+}
+.sec1-text{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    margin: 2px;
+}
+.div2{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* padding: 10px; */
+ 
+}
+.sec1-text p{
+    font-size: x-large;
+    color: white;
+    margin: 5px;
+    margin: 9px;
+    bottom: 0;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   
+    /* padding: 10px; */
+}
+.box2{
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+}
+.div3{
+    height: 100%;
+    width: 25%;
+    display: flex;
+   
+    flex-direction:column;
+    /* padding: 10px; */
+  
+}
+.box3{
+    height: 100%;
+    width:100%;
+}
+.box4{
+    height: 100%;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.button{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0%;
+}
+.sec2-text p{
+    font-size: x-large;
+    color: white;
+    margin: 5px;
+    margin: 9px;
+    bottom: 0;
+    position: relative;
+}
+.sec3-text p{
+    font-size: x-large;
+    color: white;
+    margin: 5px;
+    margin: 9px;
+    bottom: 0;
+    position: relative;
+}
+.sec4-text p{
+    font-size: x-large;
+    color: white;
+    margin: 5px;
+    margin: 9px;
+    bottom: 0;
+    position: absolute;
+}

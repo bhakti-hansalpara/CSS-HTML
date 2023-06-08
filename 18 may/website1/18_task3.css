@@ -1,0 +1,904 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+
+}
+
+.header {
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.banner {
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 186px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+input[type=email] {
+    padding: 10px;
+    border-radius: 39px;
+    font-size: 14px;
+    width: 100%;
+    margin: 10px;
+    max-width: 273px;
+    border: 1px #E8E8E8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    padding: 28px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.header_btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    padding: 10px 38px;
+    border-radius: 35px;
+    color: #EF2779;
+    border: 1px solid transparent;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-left {
+    width: 100%;
+    max-width: 60%;
+}
+.contein h1{
+    padding: 20px;
+}
+.contein p{
+    padding: 20px;
+}
+
+.banner-left img {
+    width: 100%;
+}
+
+.banner-right {
+    width: 100%;
+    max-width: 40%;
+}
+
+.banner-right h1 {
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0.2px;
+    max-width: 321px;
+    width: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 27px;
+    text-align: left;
+}
+
+.banner-right p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-width: 311px;
+    text-align: start;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.banner-btn {
+    padding: 14px 52px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #5957e4;
+    border: 1px solid transparent;
+}
+.footer h2{
+    justify-content: center;
+    display: flex;
+    font-size: 46px;
+font-family: Arial, Helvetica, sans-serif;
+height: 134px;
+}
+.footer p{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.footer button{
+    justify-content: center;
+    display: flex;
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    height: 28px;
+    width: 96px;
+    text-align: center;
+    justify-content: center;
+}
+.fingertips p{
+    display: flex;
+    justify-content: center;
+}
+
+.section_2 p {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+.mail_btn button{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.2px;
+}
+
+.content {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+}
+.fingertips button{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: hotpink;
+    height: 40px;
+    width: 273px;
+}
+.textarea h2, .textarea p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 51px;
+    line-height: 57px;
+    font-size: 40px;
+}
+.textarea p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 51px;
+    line-height: 57px;
+    font-size: 25px;
+}
+.text-client1 p, .text-client2 p .text-client3 p{
+    padding-bottom: 80px;
+}
+.btn_try button{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 236px;
+    height: 65px;
+}
+.free{
+    flex-direction: row;
+}
+.text {
+    text-align: center;
+
+}
+.contein{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+.contein h3{
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+}
+.contein p{
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+.text-contein{
+    display: flex;
+    align-items: center;
+}
+.content{
+    width: 33.33%;
+}
+.contein h1{
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .text1, .content .text2, .content .text3{
+    display: flex;
+}
+.contein p :first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 100%;
+    max-width: 340px;
+}
+.text-client1{
+    justify-content: center;
+}
+.text1 img, .text2 img, .text3 img{
+    background-color: #EF2779;
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+}
+.text1 h2, .text2 h2, .text3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* or 150% */
+    
+    letter-spacing: 0.1px;
+}
+.text1 p, .text2 p, .text3 p{
+    margin-bottom: 100PX;
+}
+.footer {
+    position: relative;
+    padding: 140px;
+}
+
+.footer img {
+    display: flex;
+    justify-content: center;
+    padding: 25PX;
+    /* border: 5px solid black; */
+}
+
+.contain {
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
+
+.contain h4 {
+    font-size: 20px;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+        Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contain h1 {
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contain h4 p {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contain p {
+    font-size: 15px;
+    color: white;
+
+}
+
+.mail_btn {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+.mail_btn::placeholder {
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 3em;
+}
+
+.mail_btn button {
+    background-color: rgb(206, 64, 88);
+    display: flex;
+    border: none;
+    border-radius: 3em;
+}
+
+.section_4 p h2 {
+    color: black;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.section_4 p {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client1,
+.client2,
+.client3 {
+    width: 25%;
+}
+
+.row1 {
+    width: 25%;
+}
+
+.client1_photo h4 {
+    font-size: 15px;
+    color: black;
+
+}
+
+.row {
+    margin: 40px;
+    position: relative;
+}
+
+.client1_photo img {
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+    margin-top: 10px;
+    position: absolute;
+    position: relative;
+}
+
+.client1 p {
+    font-size: 15px;
+    color: black;
+}
+
+.text-client1 {
+    position: relative;
+    display: flex;
+}
+
+.client1 {
+    display: flex;
+}
+
+.come {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textarea p {
+    padding: 30px;
+}
+
+.btn_try button {
+    background-color: rgb(31, 65, 175);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    justify-content: center;
+    text-align: center;
+  
+}
+.dropbox h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+padding-top: 80px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+}
+.dropbox{
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+.dropbox img{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 57px;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-align: center;
+letter-spacing: 0.2px;
+/* position: absolute; */
+}
+.dropbox p{
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.client_div .client_img{
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.client-img span img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+.client-img span{
+    display: flex;
+    align-items: center;
+}
+.client-text span{
+    font-size: 20px;
+    display: inherit;
+}
+.client-text{
+    padding: 20px;
+}
+.come{
+    display: flex;
+    justify-content: center;
+
+}
+.dropbox button{
+    /* padding: 20px; */
+    border-radius: 3rem;
+    padding: 10px;
+    /* color: ; */
+}
+.client-img p{
+    flex-direction: column;
+    font-size: 18px;
+    padding: 8px;
+}
+.client-text p{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.section_5 {
+    text-align: center;
+}
+
+.section_5 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding: 40px;
+}
+
+.section_5 img {
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+}
+.section_6 h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 57px;
+padding-top: 80px;
+/* identical to box height, or 124% */
+
+text-align: center;
+letter-spacing: 0.2px;
+}
+.section_6 p{
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    display: flex;
+}
+
+.section_5 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.free{
+    display: flex;
+}
+.order-box{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* padding: 40px; */
+margin: 0 auto;
+gap: 30px;
+
+width: 335px;
+}
+.order-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: 33px;
+}
+.order-box h4{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+.order-box span{
+   
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+}
+.order-box p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+}
+.img1 {
+    height: 100px;
+    width: 190px;
+}
+
+.section_5 img {
+    height: 50px;
+    width: 150px;
+}
+
+.btn2 button {
+    background-color: rgb(118, 147, 243);
+    display: flex;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.contact-us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    /* justify-content: center; */
+    background-color: #391d55;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+.contact-us h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    line-height: 20px;
+    padding-top: 100px;
+}
+
+p {
+    font-weight: 400;
+}
+.contact-us{
+    background-color: #391d55;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section_6 h1 {
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.section_6 p {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.box {
+    width: 30%;
+    border: 5px;
+}
+
+.free h3 {
+    font-size: 30px;
+    color: black;
+}
+.contact-left{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 26px 41px;
+gap: 31px;
+
+width: 400.72px;
+height: 430.38px;
+
+background: #FFFFFF;
+border: 0.65371px solid #DDDDDD;
+box-shadow: 0px 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
+border-radius: 13.0742px;
+}
+
+ .contact-left  input[type=email]{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+background: #F5F5F5;
+border: 0.65371px solid #DDDDDD;
+box-shadow: 0px 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
+border-radius: 13.0742px;
+ } 
+ .contact-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .contact-left input[type=text]{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #F5F5F5;;
+    border: 0.65371px solid #DDDDDD;
+    box-shadow: 0px 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
+    border-radius: 13.0742px;
+    height: 41px;
+    text-align: flex-start;
+    width: 248px;
+ } 
+ .btn-send button{
+    background-color: rgb(224, 65, 91);
+    color: white;
+    height: 43px;
+    width: 97px;
+    font-size: 17px;
+    border-radius: 100px;
+    border: transparent;
+ }
+ .locstion span, .phone span, .mail span, .loc span
+ , .pho span , .e-mail span{
+    display: flex;
+    align-items: center;
+ }
+ .loc , .e-mail, .pho {
+padding: 10px 5px;
+ }
+ .locstion img , .phone img , .mail img{
+height: 40px;
+width: 50px;
+display: flex;
+ }
+ .add-pg{
+    margin: 20px;
+ }
+ 
+ .locstion p , .phone p , .mail p{
+    font-size: 15px;
+    color: white;
+    text-align: start;
+ }
+ .tiwwter img {
+    height: 42px;
+    width: 65px;
+    margin: 10px;
+    margin-top: 33px;
+ }
+ .pages{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+ }
+ .text-p{
+    padding: 10px;
+ }
+ .text-pg h3{
+    text-align: center;
+ }
+ .img-pg{
+    display: flex;
+ }
+ .img-pg img{
+    height: 295px;
+    width: 480px;}
+ .text-pg{
+    width: 100%;
+    max-width: 111px;
+    margin: 10px;
+ }
+ .img-pg .locstion p , .img-pg .phone p ,.img-pg  .mail p{
+    font-size: 15px;
+    color: white;
+    text-align: start;
+ }
+ .loc p, .pho p, .e-mail p{
+    color: black;
+    font-size: 15px;
+   
+    text-align: start;
+ }
+ .loc img , .pho img , .e-mail img{
+    height: 30px;
+    width: 41px;
+    display: flex;
+ }
+ 
+ @media screen and (max-width:400px) {
+   .text-contein{
+        flex-direction: column;
+    }
+    .come {
+        flex-direction: column;
+    }
+    .row1{
+        flex-direction: row;
+    }
+    .order-box {
+        flex-direction: row;
+    }
+    /* .contact-left input[type=emil]{
+        flex-direction: column;
+    }
+    .contact-left input[type=text]{
+        flex-direction: row;
+    } */
+    /* .contact-left{
+        flex-direction: row;
+    } */
+    .banner-content{
+        flex-direction: column;
+    }
+    .contact-box{
+        flex-direction: column;
+    }
+    .pages{
+        flex-direction: column;
+    }
+    .free{
+        flex-direction: column;
+    }
+}

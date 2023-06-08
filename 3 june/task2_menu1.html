@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu1</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="task2_menu2.css">
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.head h1{
+    padding-top: 10px;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+i{
+    margin-right: 10px;
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+}
+.navbar ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 15px;
+    transition: all ease 0.3s;
+}
+.navbar ul li a:hover{
+    color: red;
+    
+}
+
+.navbar ul li.dropdown ul{
+    /* background-color: rgb(197, 191, 191); */
+    position: absolute;
+    border-bottom: .5px solid lightgray;
+    left: 0;
+    padding-left: 0;
+    /* min-width: 280px; */
+    /* min-height: 280px; */
+    display: none;
+}
+.navbar ul li.dropdown ul li{
+    border-bottom: 1px solid lightgray;
+}
+.dropdown ul li{
+    color: black;
+    width: 100%;
+}
+.dropdown:hover .one{
+    display: block;
+}
+.maindiv i{
+    padding-top: 20px;
+}
+.box ul{
+    display: flex;
+    flex-direction: column;
+}
+.updown {
+    position: relative;
+}
+.sitdown{
+    position: absolute;
+    left: 100%;
+    right:0;
+    top: 0;
+    display: none;
+ 
+}
+.sitdown li {
+    padding: 3px;
+}
+.updown:hover .sitdown{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: block;
+}
+.two {
+    position: absolute;
+    left: 100%;
+    right:0;
+    top: 0;
+    display: none;
+ 
+}
+.sitdown:hover .two{
+    display: block;
+    left: 100%;
+    position: absolute;
+}
+.box{
+    display: flex;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+    position: relative;
+    margin-right: 20px;
+    border-right: 1px solid gray;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: none;
+    box-shadow:  0 0 10px gray;
+    display: none;
+}
+.box1{
+    position: relative;
+    width: 100%;
+}
+.box ul
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px solid gray;
+    padding-right: 75px;
+}
+.navbar ul li{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ .three:hover .box {
+    display: flex;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+ }
+ .three{
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+ }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="head">
+            <h1>LOGO</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li class="dropdown">
+                    <a href="">Dropmenu menu</a><i class="fa-solid fa-angle-down"></i>
+                    <ul class="one">
+                        <li><a href="">menu leval1</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li class="updown"><a href="">menu leval1</a><i class="fa-solid fa-angle-right"></i>
+                            <ul class="sitdown">
+                                <li><a href="">menu leval3</a><i class="fa-solid fa-angle-right"></i>
+
+                               <ul class="two">
+                                
+                                    <li><a href="">link 1</a></li>
+                                <li><a href="">link 2</a></li>
+                                <li><a href="">link 3</a></li>
+                                <li><a href="">link 4</a></li>
+                                <li><a href="">link 5</a></li> 
+                                
+                               </ul>            
+                                </li>
+                                <li><a href="">link 1</a></li>
+                                <li><a href="">link 2</a></li>
+                                <li><a href="">link 3</a></li>
+                                <li><a href="">link 4</a></li>
+                                <li><a href="">link 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">menu leval1</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="">link1</a></li>
+                        <li><a href="">link2</a></li>
+                        <li><a href="">link3</a></li>
+                        <li><a href="">link4</a></li>
+                        <li><a href="">link5</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="">mega menu</a><i class="fa-solid fa-angle-down"></i>
+                </li>
+                <li class="three"><a href="">mega menu 2</a><i class="fa-solid fa-angle-down"></i>
+                    <div class="box">
+ 
+                        <ul>
+                            <li><h3>TITLE NAME</h3></li>
+                            <li>link 1</li>
+                            <li>link 2</li>
+                            <li>link 3</li>
+                            <li>link 4</li>
+                            <li>link 5</li> 
+                        </ul>
+                        <div class="box1">
+                               <ul>
+                        <li><h3>TITLE NAME</h3></li>
+                        <li>link 1</li>
+                        <li>link 2</li>
+                        <li>link 3</li>
+                        <li>link 4</li>
+                        <li>link 5</li>   
+                    </ul>
+                        </div>
+                        
+                  
+                
+               
+                    <ul>
+                        <li><h3>TITLE NAME</h3></li>
+                        <li>link 1</li>
+                        <li>link 2</li>
+                        <li>link 3</li>
+                        <li>link 4</li>
+                        <li>link 5</li>   
+                    </ul>
+                </div>
+                
+                    <!-- <ul>
+                        <li><h3>TITLE NAME</h3></li>
+                        <li>link 1</li>
+                        <li>link 2</li>
+                        <li>link 3</li>
+                        <li>link 4</li>
+                        <li>link 5</li>   
+                    </ul> 
+              
+                    </div>  -->
+
+
+                </li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+
+
+</body>
+
+</html>
