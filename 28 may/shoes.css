@@ -6,14 +6,18 @@
 .cointainer{
     height: 100vh;
     width: 100%;
-  
+  display: flex;
 }
  .cointainer .box{
    
     width: 30%;
 }
+.m1{
+    display: flex;
+}
 .box{
- 
+    width: 25%;
+    height: 30%;
     display: flex;
 }
 .img img{

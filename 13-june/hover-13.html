@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: blueviolet;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     button{
+            display: inline-block;
+            position: relative;
+           font-size: 4rem;
+           padding: 30px;
+           border: 10px solid yellow;
+           background-color: blueviolet;
+           overflow: hidden;
+           z-index: 1;
+        }
+          button::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: yellow;
+        width: 30%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: 1s ;
+       }
+       button::after{
+        content: "";
+        position: absolute;
+       right: 0;
+       bottom: 0;
+      background-color: yellow;
+        width: 30%;
+        height: 100%;
+        transform: translatex(100%);
+        transition:1s ;
+       }
+       #bottom{
+        height: 100%;
+        width: 20%;
+        background-color: yellow;
+        position: absolute;
+        top: 0;
+        left: 30%;
+        transform: translateY(100%);
+        transition: 1s;
+       }
+       button:hover #bottom{
+        transform: translatex(0%);
+        z-index: -1;
+       }
+       #top{
+        height: 100%;
+        width: 20%;
+        background-color: yellow;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateY(-100%);
+        transition: 1s;
+       }
+       button:hover #top{
+        transform: translateY(0%);
+        z-index: -1;
+       }
+       button:hover:before{
+        transform: translateX(0);
+        z-index: -1;
+       }
+       button:hover:after{
+        transform: translateX(0);
+        z-index: -1;
+       }
+       .top button{
+        background-color: yellow;
+       }
+        </style>
+</head>
+<body> 
+   <div class="main">
+    <button>Hover me<span id="top"></span><span id="bottom"></span></button>
+   </div>
+       </body>
+</html>

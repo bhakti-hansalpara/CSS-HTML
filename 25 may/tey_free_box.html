@@ -11,58 +11,81 @@
             padding: 0%;
             box-sizing: border-box;
         }
-        .content{
-            border: 5px solid black;
-            height: 50%;
-            width: 25%;
-        }
-.text h3{
-    font-size: 30px;
-    
+     
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 5px 10px 8px #888888;
 }
-.text p{
-    font-size: 10px;
-}
-span{
-    font-size: 50px;
-    font-weight: 900px;
-    display: flex;
 
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  margin-top: 20px;
+  box-shadow: 5px 10px 20px red inset;
 }
-span{
-    font-size: 50px;
+h1{
+    font-size: 30px;
+}
+.container{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+}
+.text{
     display: flex;
+    align-items: center;
+   
 }
-span p{
-    font-size: 60px;
+.text p:first-child{
+    font-size: 40px;
 }
-.repees{
-    display: flex;
-    flex-direction: row;
+.text2{
+    text-align: center;
 }
-.repees p{
-    font-size: 25px;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
+.btn{
+    padding: 10px;
 }
-.repees h3{
-    font-size: 15px;
-    display: flex;
+button{
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px         ;
 }
     </style>
 </head>
 <body>
-    <div class="content">
+
+    <div class="container">
+        <h1>Free</h1>
+        <p>orgnizer acess all apps by ornder</p>
         <div class="text">
-            <h3>Free</h3>
-            <p>Organize across all apps by hand</p>
-            <div class="repees">
-                <span>0</span>
-                <p>$</p>
-                <h3>per month</h3>
+            <p>0</p>
+            <div class="text2">
+                <span>$</span>
+                <p>Per monthgs</p>
             </div>
         </div>
+        <div class="btn">
+            <button>Ordre now</button>
+        </div>
+        
     </div>
+<!-- blur shadow -->
+    <div id="example1">
+        <p>The optional third value adds a blur effect to the shadow.</p>
+      </div>
+      <div id="example2">
+        <p>Inset, red and blur.</p>
+      </div>
+      <!-- normal -->
+      box-shadow: 10px 10px grey;
+      <!-- blur+ -->
+      box-shadow: 20px 20px 50px grey;
+      
 </body>
 </html>

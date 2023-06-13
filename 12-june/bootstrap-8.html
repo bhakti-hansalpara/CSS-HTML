@@ -15,6 +15,8 @@
         #top_nav {
             background-color: #daac00 !important;
             padding: 0 8%;
+            position: sticky;
+            top: 0;
         }
 
         .dog-font {
@@ -63,7 +65,9 @@
             background-color: #fcc302;
             padding-bottom: 20px;
         }
-
+         #banner-img{
+            padding-top: 120px;
+         }
         #banner-text h1 {
             color: white;
             font-size: 50px;
@@ -92,6 +96,7 @@
 
         .img-fluid {
             background-color: #fcc302;
+        
         }
 
         #service-text {
@@ -132,9 +137,50 @@
             .artist{
                 padding: 15px;
                 border: 1px solid gray;
+                border-top: 0;
             }
             .ar-t, .ar-delails{
                color: #00bec9;
+            }
+            #footer{
+                background-color: #343434;
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+            #footer a{
+                color: white;
+                text-decoration: none;
+            }
+            .i{
+                padding: 20px;
+                margin-top: 30px;
+            }
+            #footer-form{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            #footer-searchbox{
+            background-color: #fcc302;
+            color: white;
+            border: 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+            #sumitbtn{
+              background-color: #00bec9;
+              color: white;
+              padding: 10px 20px;
+              border: 0;
+              border-radius: 0;
+            }
+            .social-icon{
+              font-size: 25px;
+              padding-left: 5px;
+
+            }
+            #banner-img{
+                width: 200px;
             }
     </style>
 </head>
@@ -221,12 +267,12 @@
             </div>
         </div>
         <div class="row justify-content-center" id="blog">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center pt-6">
                     <h1 id="blod-title">Recent post</h1>
                     <p id="blog-p">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Eos, fuga.</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="./photos/dogman.jpg">
+                <div class="col-md-3 col-11 mt-4 pb-4">
+                    <img src="./photos/dogman.jpg" width="100%">
                     <div class="artist">
                         <h4 class="ar-t">As a veriatian and <br>lover of animal</h4>
                         <p class="ar-date"> 29 Feb, 2023</p>
@@ -234,8 +280,8 @@
                         <p>Read more+</p>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="./photos/dogman.jpg">
+                <div class="col-md-3 col-11 mt-4">
+                    <img src="./photos/dogman.jpg" width="100%">
                     <div class="artist">
                         <h4 class="ar-t">As a veriatian and<br> lover of animal</h4>
                         <p class="ar-date"> 29 Feb, 2023</p>
@@ -243,8 +289,8 @@
                         <p>Read more+</p>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="./photos/dogman.jpg">
+                <div class="col-md-3 col-11 mt-4">
+                    <img src="./photos/dogman.jpg" width="100%">
                     <div class="artist">
                         <h4 class="ar-t">As a veriatian and <br>lover of animal</h4>
                         <p class="ar-date"> 29 Feb, 2023</p>
@@ -252,6 +298,38 @@
                         <p>Read more+</p>
                     </div>
                 </div>
+        </div>
+        <div class="row justify-content-center text-white" id="footer">
+            <div class="col-md-3">
+                <h4>About</h4>
+                <a href="">history</a><br>
+                <a href="">our team</a><br>
+                <a href="">brand gaidline</a><br>
+                <a href="">terms&condition</a><br>
+                <a href="">privicy policy</a><br>
+            </div>
+            <div class="col-md-2">
+                <h4>Service</h4>
+                <a href="">how to oder</a><br>
+                <a href="">our products</a><br>
+                <a href="">our States</a><br>
+                <a href="">Promo</a><br>
+                <a href="">Pyment method</a><br>
+            </div>
+            <div class="col-md-4 text-end">
+                <h4>Title here</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <form id="footer-form">
+                    <input type="text" id="footer-searchbox">
+                    <button type="submit" id="sumitbtn"><i class="bi bi-cursor-fill"></i></button>
+                </form>
+              
+                <i class="bi bi-instagram social-icon"></i>
+                <i class="bi bi-whatsapp  social-icon"></i>
+                <i class="bi bi-facebook social-icon"></i> 
+                <i class="bi bi-twitter social-icon"></i>
+                
+            </div>
         </div>
     </div>
 
